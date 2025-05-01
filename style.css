@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+.title {
+    font-size: 1.8rem;
+    color: #444;
+}
+
+.link-container {
+    margin-top: 30px;
+}
+
+.link-title {
+    font-size: 1.2rem;
+    color: #444;
+}
+
+.tool-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    position: relative;
+    left: 30px;
+    margin-top: 10px;
+}
+
+.watermark {
+    position: fixed;
+    bottom: 20px;
+    right: 26px;
+    font-size: .875rem;
+    color: #444;
+}
